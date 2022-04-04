@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(46, 134, 150),rgb(38, 54, 133));
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: yellow;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-project{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.about-project h2{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.about-project h3{
+    font-size: 36px;
+}
+
+.about-project p{
+    font-size: 36px;
+}
+
+#one{
+    margin-bottom: 15px;
+}
+
+#two{
+    margin-bottom: 30px;
+}
+
+.about-project ul{
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.project-image{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.project-image h3{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.project-image img{
+    margin-left: 165px;
+    height: 700px;
+}
+
+.project-form{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.project-form h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#up{
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#low{
+    margin-left: 400px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.project-answer{
+    margin-left: 20px;
+}
+
+.project-answer h2{
+    font-size: 45px;
+}

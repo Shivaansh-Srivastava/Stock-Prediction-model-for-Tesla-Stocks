@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Stock Prediction</title>
+        <link rel= "stylesheet" type= "text/css" href= "../static/styles/style.css">
+    </head>
+    <body>
+        <div class="main-title">
+            <h1>Stock Prediction Model For Tesla Stock</h1>
+        </div>
+        <div class="about-project">
+            <h2>About the Project</h2>
+            <p id="one">
+                In Stock Price Prediction, the aim is to predict the future value of the financial stocks of a company. The recent trend in stock market prediction technologies is the use of machine learning 
+                which makes predictions based on the values of current stock market indices by training on their previous values. 
+                The project focuses on the use of Regression based Machine learning to predict stock values. The entire idea of predicting stock prices is to gain significant profits.
+            </p>
+            <p id="two">
+                Stock Price Prediction using machine learning helps you discover the future value of company stock and other financial assets traded on an exchange. There are other factors involved 
+                in the prediction, such as physical and psychological factors, rational and irrational behavior, and so on. All these factors combine to make share prices dynamic and volatile. 
+                This makes it very difficult to predict stock prices with high accuracy.
+            </p>
+            <ul>
+                <li>
+                    <h3>The Dataset used contains data from the date 29/06/2010 to 15/03/2019.</h3>
+                </li>
+                <li>
+                    <h3>The model used for predicting is Linear Regression.</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="project-image">
+            <h3>The Predicted graph for the dataset:</h3>
+            <img src="../static/Images/predict_img.png" alt="Graph" />
+        </div>
+        <div class="project-form">
+            <form action="/predict" method="POST">
+                <h2>Select the Date for the prediction:</h2>
+                <input type="date" name="dates" id='up'/>
+                <input type="submit" value="Submit" id='low'/>
+            </form>
+        </div>
+        <div class="project-answer">
+            <h2>{{price}}</h2>
+        </div>
+    </body>
+</html>
