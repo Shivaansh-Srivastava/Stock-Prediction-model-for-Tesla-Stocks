@@ -1,6 +1,6 @@
 # Stock-Prediction-model-for-Tesla-Stocks
 
-<a href="https://stock-prediction-application-t.herokuapp.com/">Click to launch the site</a>
+<a href="https://stock-prediction-application-t.herokuapp.com/">Click to launch the site.</a>
 <br>
 <a href="https://colab.research.google.com/drive/10d-_UOT-mJchdg3m-QHLwTvRYT7zRuxZ?usp=sharing#scrollTo=MVMJ5nSnm7gs">Colab Link for the model.</a>
 
